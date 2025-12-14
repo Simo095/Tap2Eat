@@ -11,7 +11,7 @@ import { AppDispatch } from "@/types/state";
 const HomePage: React.FC = () => {
   const dispatch: AppDispatch = useDispatch();
   useEffect(() => {
-    dispatch(fetchMenu());
+    //dispatch(fetchMenu());
     //eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
