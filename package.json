@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.1",
+    "@vercel/analytics": "^1.6.1",
     "@vercel/blob": "^1.0.0",
     "bootstrap": "^5.3.5",
     "csv-parser": "^3.2.0",
