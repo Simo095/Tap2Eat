@@ -9,17 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/helpers": "^7.28.4",
+    "@babel/runtime": "^7.28.4",
     "@reduxjs/toolkit": "^2.6.1",
+    "@supabase/auth-js": "^2.89.0",
     "@vercel/analytics": "^1.6.1",
-    "@vercel/blob": "^1.0.0",
-    "bootstrap": "^5.3.5",
+    "@vercel/blob": "^2.0.0",
+    "bootstrap": "^5.3.8",
     "csv-parser": "^3.2.0",
+    "esbuild": "^0.25.12",
+    "glob": "^10.5.0",
     "next": "^16.0.10",
     "react": "^19.2.3",
-    "react-bootstrap": "^2.10.9",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
-    "react-qr-code": "^2.0.15",
+    "react-qr-code": "^2.0.18",
     "react-redux": "^9.2.0",
     "react-scroll": "^1.9.3",
     "redux-persist": "^6.0.0",
@@ -27,7 +32,7 @@
     "stream": "^0.0.3"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^25",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "typescript": "^5"
